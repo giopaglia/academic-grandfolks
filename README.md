@@ -12,25 +12,26 @@ Trace one's academic genealogy by crawling a dataset of academic advisors and st
 ## Usage
 
 1. **Install requirements**  
-   This script requires Python 3 and the `requests` library.  
-   Install dependencies with:
-   ```bash
-   pip install requests
-   ```
+	This script requires Python 3 and the `requests` library.  
+	Install dependencies with:
+	```bash
+	pip install requests
+	```
 
 2. **Configure ancestors**  
-   Edit the `myancestors.py` file to set starting ancestor IDs in the `my_ancestors` dictionary.  
-   You can find the IDs from the [Mathematics Genealogy Project](https://www.mathgenealogy.org/).
+	Edit the `myancestors.py` file to set starting ancestor IDs in the `my_ancestors` dictionary.  
+	You can find the IDs from the [Mathematics Genealogy Project](https://www.mathgenealogy.org/).
 
 3. **Run the script**  
-   Execute the script with:
-   ```bash
-   python myancestors.py
-   ```
+	Execute the script with:
+	```bash
+	python myancestors.py
+	```
 
 ## Example Output
 
 ```
+Guido Sciavicco (1)
 Angelo Montanari (2)
 Alberto Policriti (2)
 ...
