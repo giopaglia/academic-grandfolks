@@ -1,6 +1,6 @@
 # Academic grandfolks
 
-Trace one's academic genealogy by crawling a dataset of academic advisors and students. It fetches data from [j2kun/math-genealogy-scraper](https://github.com/j2kun/math-genealogy-scraper) (providing scraped data from [Mathematics Genealogy Project](https://www.mathgenealogy.org/)) and recursively finds all academic ancestors for specified individuals.
+Trace one's academic genealogy by crawling a dataset of academic advisors and students. It fetches data from [j2kun/math-genealogy-scraper](https://github.com/j2kun/math-genealogy-scraper) and recursively finds all academic ancestors for the specified individuals.
 
 ## Features
 
@@ -20,7 +20,7 @@ Trace one's academic genealogy by crawling a dataset of academic advisors and st
 
 2. **Configure ancestors**  
 	Edit the `myancestors.py` file to set starting ancestor IDs in the `my_ancestors` dictionary.  
-	You can find the IDs from the [Mathematics Genealogy Project](https://www.mathgenealogy.org/).
+	You can find someone's ID by searching them on the [Mathematics Genealogy Project website](https://www.mathgenealogy.org/id.php?id=230926).
 
 3. **Run the script**  
 	Execute the script with:
@@ -39,4 +39,4 @@ Alberto Policriti (2)
 
 ## Data Source
 
-This project uses data from [j2kun/math-genealogy-scraper](https://github.com/j2kun/math-genealogy-scraper).
+This project uses data from the [Mathematics Genealogy Project website](https://www.mathgenealogy.org/), scraped and provided in JSON format by [j2kun/math-genealogy-scraper](https://github.com/j2kun/math-genealogy-scraper).
